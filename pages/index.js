@@ -90,14 +90,15 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <div id="dwv" className="h-full">
+        <img src="logo.png" alt="logo" className="w-120 opacity-70" />
+        <p className="text-gray-500 font-lg mb-12">
+          Scroll ⬇ on the image to view more
+        </p>
+        <div id="dwv" className="h-full w-auto my-12">
           <div className="layerContainer"></div>
         </div>
+        <img className="opacity-70" src="footer.png" alt="Footer logo" />
       </main>
-
-      <a className="text-gray-500 pb-12 font-bold" href="https://kndwin.dev">
-        kndwin
-      </a>
     </div>
   );
 }
